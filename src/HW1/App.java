@@ -13,6 +13,7 @@ public class App {
 
         Tree tree = new Tree();
 
+
         tree.addLink(person1, person, Relation.Child, Relation.Parent);
         tree.addLink(person2, person, Relation.Child, Relation.Parent);
         tree.addLink(person, person3, Relation.Husband, Relation.Wife);
